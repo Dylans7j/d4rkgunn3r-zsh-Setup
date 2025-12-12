@@ -98,18 +98,7 @@ setopt HIST_IGNORE_ALL_DUPS
 setopt EXTENDED_HISTORY
 setopt SHARE_HISTORY
 
-# ----------------------------
-# Aliases
-# ----------------------------
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-alias ports="ss -tulnp"
-alias ip4="ip -4 addr show"
-alias ip6='ip -6 addr show'
-alias venv="source venv/bin/activate"
-alias cls="clear"
-alias update="sudo apt update && sudo apt upgrade -y"
+#---------------------------
 
 # Colored man pages
 export LESS_TERMCAP_mb=$'\E[1;31m'
