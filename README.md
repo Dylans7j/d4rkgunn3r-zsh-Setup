@@ -22,5 +22,5 @@ This installer sets up:
 ```bash
 git clone https://github.com/YOURUSERNAME/d4rkgunn3r-zsh.git
 cd d4rkgunn3r-zsh
-chmod +x install.sh
-./install.sh
+chmod +x install.sh clean-install.sh 
+./install.sh or clean-install.sh
